@@ -14,7 +14,7 @@ def assign_rooms(array)
 	x=1
 	y = []
 	for i in array do
-		y <<  “Hello, #{i}! You'll be assigned to room #{x}!”
+		y << "Hello, #{i}! You'll be assigned to room #{x}! ”
 		x+=1	
 	end
 	return x
