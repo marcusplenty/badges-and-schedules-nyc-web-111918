@@ -14,10 +14,9 @@ def assign_rooms(array)
 	x=1
 	y = []
 	for i in array do
-		y << "Hello, #{i}! You'll be assigned to room #{x}! ”
-		x+=1	
+		y.push("Hello, #{i}! You'll be assigned to room #{x}!”)
 	end
-	return x
+
 end
 
 def printer(array)
