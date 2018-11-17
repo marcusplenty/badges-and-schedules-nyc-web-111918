@@ -23,8 +23,8 @@ end
 def printer(array)
   x = 0
   for i in array do
-	  puts batch_badge_creator(array[x])
-	  puts assign_rooms(array[x])
+	  puts batch_badge_creator(array)
+	  puts assign_rooms(array)
 	  x+=1
 	end
 end
